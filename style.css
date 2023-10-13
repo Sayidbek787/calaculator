@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;  
+}
+.display{
+    background-color: #3A4663;
+    display: flex;
+width: 1440px;
+height: 900px;
+padding: 96px 450px;
+justify-content: center;
+align-items: center;
+}
+.calculator{
+    width: 540px;
+height: 708px;
+top: 96px;
+left: 450px;
+}
+.tepa-qism h3{
+    color: #FFF;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.533px;
+    display: flex;
+    gap: 310px;
+padding-top: 26px;
+padding-left: 10px;
+
+}
+.tepa-qism p{
+    color: #FFF;
+text-align: center;
+font-family: League Spartan;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1px;
+padding-left: 352px;
+margin-top: -18px;
+}
+.themes{
+    width: 61px;
+height: 26px;
+flex-shrink: 0;
+border-radius: 13px;
+background: #242D44;
+margin-left:478px;
+margin-top: -20px;
+position: absolute;
+}
+.themes img{
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.ekran{
+    width: 540px;
+height: 128px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #181F33;
+color: #FFF;
+margin-top: 30px;
+}
+.ekran h1{
+    color: #FFF;
+text-align: right;
+font-family: League Spartan;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.933px;   
+padding-top: 40px;
+padding-right: 32px;
+}
+.klaviatura{
+    display: grid;
+   grid-template-columns: repeat(4 , 64px);
+   grid-template-rows: repeat(5 , 101px);
+   gap:8px 70px ;
+   border-radius: 10px;
+   background: #242D44;
+margin-top: 24px;                       
+}
+.klaviatura p{
+    color: #434A59;
+text-align: center;
+font-family: League Spartan;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.667px;
+border-radius: 10px;
+background: #EAE3DC;
+box-shadow: 0px -4px 0px 0px #B3A497 inset;
+width: 101px;
+height: 64px;
+flex-shrink: 0;
+}
+.sonlar{
+    display: grid;
+   grid-template-columns: repeat(4 , 64px);
+   grid-template-rows: repeat(5 , 101px);
+   gap:8px 60px ;
+   margin-top: 32px;
+   margin-left: 30px;
+}
+.sonlar p{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.klaviatura p:nth-child(4){
+    border-radius: 10px;
+background-color: #647198;
+box-shadow: 0px -4px 0px 0px #414E73 inset;
+color: white;
+}
+.klaviatura p:nth-child(17){
+    width: 227px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #647198;
+box-shadow: 0px -4px 0px 0px #414E73 inset;
+color: white;
+margin-top: -15px;
+}
+.klaviatura p:nth-child(18){
+    width: 227px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #D03F2F;
+box-shadow: 0px -4px 0px 0px #93261A inset;
+margin-left: 120px;
+color: #FFF;
+margin-top: -15px;
+}
+.klaviatura p:hover{
+    border-radius: 10px;
+background: #FFFFFE;
+box-shadow: 0px -4px 0px 0px #B3A497 inset;
+}
+.klaviatura p:nth-child(4):hover{
+    border-radius: 10px;
+background: #A2B2E1;
+box-shadow: 0px -4px 0px 0px #414E73 inset;
+}
+.klaviatura p:nth-child(17):hover{
+    border-radius: 10px;
+background: #A2B2E1;
+box-shadow: 0px -4px 0px 0px #414E73 inset;
+}
+.klaviatura p:nth-child(18):hover{
+    border-radius: 10px;
+background: #F96B5B;
+box-shadow: 0px -4px 0px 0px #93261A inset;
+}
